@@ -1,0 +1,184 @@
+
+
+
+body {
+    background-color:steelblue;}
+
+.canvas {
+    background-color: steelblue;
+    height: 600px;
+    max-width: 900px;
+    width:700px;
+    margin: auto;
+    padding: 20px;
+    /* border: 1px solid white; */
+}
+
+.clearfix:before, .clearfix:after {
+    content: ' ';
+    display: table;
+    visibility: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.roundedcorners {
+    border-radius: 10px;
+}
+
+.author-image {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    height: 225px;
+    border-radius: 100%;
+    overflow: hidden;
+    padding: 7px;
+    background: #fff;
+    z-index: 2;
+    box-shadow: #333 1px 1px 1px 1px;
+
+}
+
+.author-image .img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100%;
+}
+
+.hidden {
+    display:none;
+}
+
+.shadow {
+    text-shadow: 2px 2px #333;
+}
+
+.big {
+    font-size: 8rem;
+    color: white;
+    font-family: 'IM Fell English SC', serif;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.im{
+    padding-top:15px;
+    float:left;
+    padding-right:10px;
+}
+
+.luke {
+    padding-top:85px;
+    float:right;
+    padding-left:10px;
+}
+
+.intro {
+    padding-top:20px;
+}
+
+.notes {
+    padding-top: 20px;
+}
+
+/* Sticky Notes Section */
+ul{
+    overflow:hidden;
+    padding:2em;
+}
+
+ul li{
+    list-style:none;
+    margin:10px;
+    float:left;
+}
+
+ul li p{
+    font-family:"Reenie Beanie","Nanum Pen Script",cursive;
+    font-size:3rem;
+    text-align:center;
+}
+
+ul li a{
+    text-decoration:none;
+    color:#000;
+    background:yellowgreen;
+    display:block;
+    height:10em;
+    width:10em;
+    padding:1em;
+    -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    -moz-transition:-moz-transform .15s linear;
+    -o-transition:-o-transform .15s linear;
+    -webkit-transition:-webkit-transform .15s linear;
+  }
+  
+  ul li:nth-child(odd) a{
+    -o-transform:rotate(-2deg);
+    -webkit-transform:rotate(-2deg);
+    -moz-transform:rotate(-2deg);
+    position:relative;
+    top:-10px;
+  }
+
+  ul li:nth-child(even) a{
+    -o-transform:rotate(4deg);
+    -webkit-transform:rotate(4deg);
+    -moz-transform:rotate(4deg);
+    position:relative;
+    top:5px;
+    background:#cfc;
+  }
+
+  ul li:nth-child(3n) a{
+    -o-transform:rotate(-1deg);
+    -webkit-transform:rotate(-1deg);
+    -moz-transform:rotate(-1deg);
+    position:relative;
+    top:-5px;
+    background:#ccf;
+  }
+
+  ul li:nth-child(odd)) a{
+    -o-transform:rotate(2deg);
+    -webkit-transform:rotate(2deg);
+    -moz-transform:rotate(2deg);
+    position:relative;
+    top:-10px;
+  }
+
+  ul li a:hover,ul li a:focus{
+    -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    position:relative;
+    z-index:5;
+  }
