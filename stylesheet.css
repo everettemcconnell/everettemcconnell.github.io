@@ -104,6 +104,18 @@ body {
     padding-top: 20px;
 }
 
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.row:after {
+    content: ""; 
+    display: table; 
+    clear: both;
+}
+
 /* Sticky Notes Section */
 ul{
     overflow:hidden;
